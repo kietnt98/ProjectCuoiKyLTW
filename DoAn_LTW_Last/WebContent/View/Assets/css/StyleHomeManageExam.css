@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+
+#menu ul{
+	list-style: none;
+	font-family: Arial, san-serif;
+	font-size: 12px;
+	padding: 0;
+	}
+
+#menu ul li{
+	float:left;
+	position:relative;
+	width: 20%;
+	text-align: center;
+	}
+
+#menu ul a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	padding:10px 30px;
+	background:green;
+	border: 1px dotted #ccc;
+	font-size: 18px;
+	}
+
+#menu ul a:hover{
+	background:red;
+	}
+#menu li ul a{
+ background:green;
+ }
+#menu li ul li{
+	float: none;
+	width: 227px;
+}
+#menu li ul{
+ position:absolute;
+ display:none;
+ width:500px;
+ }
+#menu li:hover ul{
+ display:block;
+        }
+
+.thongtin{
+	margin-left: 20px;
+}
+table th{
+	text-align: center;
+}
+table td{
+	width:  150px;
+	text-align: center;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.search button:hover {
+    background: #0b7dda;
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.finput{
+	font-size: 30px;
+	font-family:Times New Roman;
+	color: black;
+	margin-top: 3px;
+	margin-left: 60px;
+}
+.f_input{
+	margin-left: 266px;
+	width: 500px;
+}
+.l_input{
+	float: left;
+}
+
+.f_input input{
+	width: 500px;
+}
+#AddGV form{
+	margin-left: 250px;
+}
+
+#AddGV {
+	font-size: 18px;
+}
+
+#EditGV {
+	font-size: 18px;
+}
+#DeleteGV {
+	font-size: 18px;
+}
+#DSGV {
+	font-size: 18px;
+}
+#AddSV form{
+	margin-left: 250px;
+}
+
+#AddSV {
+	font-size: 18px;
+}
+
+#EditSV {
+	font-size: 18px;
+}
+#DeleteSV {
+	font-size: 18px;
+}
+#DSSV{
+	font-size: 18px;
+}
+#DSTB{
+	font-size: 18px;
+}
+#DSTB table{
+	width: 100%;
+}
+
+
+#AddTB{
+	font-size: 18px;
+}
+#AddTB form{
+	margin-left: 250px;
+}
+#EditTB{
+	font-size: 19px;
+}
+#EditTB table{
+	width: 100%;
+}
+#DeleteTB{
+	font-size: 18px;
+}
+#DeleteTB table{
+	width: 100%;
+}
+table, td, th{
+	border: 1px solid black;
+	font-size: 20px;
+}

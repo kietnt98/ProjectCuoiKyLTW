@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body{
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+#menu{
+
+}
+#lienhe{
+	position: absolute;
+	top: -2px;
+	left: 1168px;
+	font-size: 19px;
+	font-family: Times New Romans;
+}
+li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+#myNavbar li:hover{
+	background:  aqua;
+	color: red;
+}
+.t_tin{
+	font-size: 20px;
+	width: 22%;
+	float: left;
+	margin-left: 30px;
+}
+#thongtin{
+	margin-top: 60px;
+}
+
+.qcao{
+	width: 50%;
+	height: 400px;
+	float: left;
+	color: #000000;
+	 font-size: 15px;
+}
+.qcaoList{
+	margin-left:-37px;
+}
+.qcaoList li{
+	list-style-image: url(../img/icon/368591.png);
+	float: none;
+}
+#top{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
